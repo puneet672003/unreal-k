@@ -1,0 +1,65 @@
+downloads/
+test/
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Environment variables
+.env
+.env.local
+*.secret
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# Logs and temporary files
+*.log
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# macOS specific
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Jupyter Notebook outputs
+**/*.ipynb_checkpoints
+
+# AWS and cloud-related
+*.pem
+*.key
